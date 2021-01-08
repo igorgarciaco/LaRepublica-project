@@ -1,0 +1,21 @@
+.geometric-page{
+    width: 500px;
+    display: flex;
+    margin: auto;
+}
+.page-title{
+    position: absolute;
+    font-size: 10rem;
+    top: 11rem;
+    left: 7rem;
+    right: 7rem;
+    letter-spacing: -1.87px;
+    color: var(--text);
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .page-title{
+        left: 0rem;
+        right: 0rem;
+        font-size: 75px;
+    }
+}

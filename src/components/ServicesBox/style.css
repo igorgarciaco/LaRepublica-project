@@ -1,0 +1,42 @@
+.left-col{
+    text-align: end;
+    font-size: 2rem;
+    line-height: 40px;
+}
+.right-col{
+    font-size: 2rem;
+    line-height: 40px;
+    margin-right: 25px;
+}
+.middle-col{
+    display: flex;
+    justify-content: center;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.box-topic{
+    margin-top: -40px;
+    margin-bottom: 100px;
+    color: var(--text);
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .left-col{
+        text-align: center;
+    }
+    .right-col{
+        text-align: center;
+        margin-bottom: 50px;
+        margin-right: 0;
+    }
+    .middle-col{
+        margin: 0;
+        padding-top: 10px;
+    }
+    .box-topic{
+        margin: 0;
+        line-height: 1.5;
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+}

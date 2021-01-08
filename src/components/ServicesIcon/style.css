@@ -1,0 +1,32 @@
+.service-icon-wrapper{
+    margin-left: 40px;
+}
+.service-border-icon{
+    background-image: url("../../images/icons/services/polygon-border-icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 90px;
+    height: 90px;
+    align-content: center;
+    text-align: center;
+}
+.service-icon{
+    margin-top: 21px;
+}
+.icon-label{
+    margin-top: 15px;
+    font-size: 0.75rem;
+    text-align: center;
+}
+.ux{
+    font-size: 4.5rem; 
+    margin-bottom: 0;
+ }
+@media (min-width: 320px) and (max-width: 480px){
+    .service-icon-wrapper{
+        margin: 0;
+    }
+    .service-border-icon{
+        margin: auto;
+    }
+}

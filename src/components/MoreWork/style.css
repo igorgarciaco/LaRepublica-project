@@ -1,0 +1,18 @@
+.more-work{
+    margin-bottom: 50px;
+}
+.more-work .project-link{
+    font-size: 1.25rem;
+    line-height: 1;
+}
+.more-work img{
+    margin-bottom: 15px;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .more-work .project-link{
+        font-size: 21px;
+    }
+    .more-work .col-md-4{
+        margin: 30px 0;
+    }
+}

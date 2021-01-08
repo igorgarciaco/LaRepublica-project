@@ -1,0 +1,58 @@
+.amazing-form{
+    font-size: 2.438;;
+    color: var(--text);
+    line-height: 1.13;
+    margin-top: 20px;
+}
+.amazing-form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    color: var(--weird-green);
+}
+::-webkit-input-placeholder {
+    color: var(--weird-green);
+    opacity: 1;
+ }
+ .next-form{
+    color: var(--text);
+    font-size: 0.938rem;
+    list-style: none;
+ }
+ .next-form:hover{
+     cursor: pointer;
+     text-decoration: line-through;
+     text-decoration-color: var(--weird-green);
+ }
+ .submit-form{
+     background: none;
+     border: none;
+     list-style: none;
+ }
+ .submit-form:hover{
+     cursor: pointer;
+     text-decoration: line-through;
+     text-decoration-color: var(--weird-green);
+ }
+ .form-tabs-wrapper{
+    display: flex;
+    margin: 0;
+    padding-top: 50px;
+ }
+
+ .form-tabs{
+    list-style: none;
+    color: #dddddd;
+    padding: 10px 15px;
+    font-size: 1rem;
+ }
+ .form-tabs:hover{
+    cursor: pointer;
+ }
+ .react-tabs__tab--selected{
+     color: var(--text);
+     background-color: transparent;
+ }
+ .react-tabs__tab-panel{
+     font-size: 2.2rem;
+ }

@@ -1,0 +1,27 @@
+.slider-interno{
+    margin-top: 3rem;
+}
+.slick-next{
+    margin-right: 100px;
+}
+.slick-next::before{
+    content:"";
+    background-image: url("../../images/icons/slider-next.svg");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}
+.slick-prev{
+    margin-left: 50px;
+    position: absolute;
+    z-index: 9999;
+}
+.slick-prev::before{
+    content:"";
+    background-image: url("../../images/icons/slider-prev.svg");
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 90px;
+    display: block;
+}

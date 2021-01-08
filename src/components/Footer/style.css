@@ -1,0 +1,59 @@
+footer{
+    background-color: #000000;
+    padding: 50px 0 30px;
+    color: var(--white);
+}
+.foo-logo{
+    border-right: 1px solid #f7f7f7;
+
+}
+.company{
+    font-size: 0.875rem;
+    line-height: 1;
+    margin-top: 15px;
+}
+.company::before{
+    content: "";
+    background-color: #3e3e3e;
+    width: 2px;
+    display: block;
+    height: 30px;
+    position: absolute;
+    margin-left: -35px;
+    margin-top: 2px;
+}
+.nav-foo{
+    margin-top: 20px;
+    line-height: 5;
+}
+.foo-nav-link{
+    margin-top: 40px;
+    font-family: 'Metropolis-Light';
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: -0.12px;
+    color: var(--white) !important;
+    text-transform: uppercase;
+}
+.foo-contact{
+    color: var(--white);
+    font-size: 0.75rem;
+    text-align: end;
+    line-height: 2;
+    margin-top: 15px;
+    float: right;
+}
+.copyright{
+    color: #999999;
+    font-size: 0.75rem;
+    margin-top: 30px;
+}
+.foo-social{
+    margin-top: 20px;
+    text-align: end;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .nav-foo{
+        display: none;
+    }
+}

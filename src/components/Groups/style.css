@@ -1,0 +1,15 @@
+
+.groups-logo{
+    width: 120px;
+    margin: auto;
+
+}
+.group-wrapper{
+    display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .group-wrapper{
+        justify-content: center;
+    }
+}

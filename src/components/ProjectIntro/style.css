@@ -1,0 +1,47 @@
+.project-description-left{
+    text-align: right;
+}
+.project-intro{
+    padding-top: 160px;
+    color: var(--text);
+}
+.project-image {
+    width: 100%;
+}
+.project-intro:hover{
+    text-decoration: line-through;
+    text-decoration-color: var(--weird-green);
+}
+.project-link{
+    color: var(--text);
+    text-decoration-color: var(--weird-green);
+    font-size: 0.85rem;
+}
+.project-link:hover{
+    text-decoration: line-through;
+    text-decoration-color: var(--weird-green);
+    color: var(--text);
+}
+.project-title{
+    font-size: 3.5rem;
+}
+.project-subtitle{
+    font-size: 0.95rem;
+}
+.image-left{
+    float: right;
+}
+.image-right{
+    float: left;
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .project-intro{
+        padding-top: 0px;
+        margin: 30px 0;
+        text-align: center;
+    }
+    .project-title{
+        font-size: 32px;
+    }
+}

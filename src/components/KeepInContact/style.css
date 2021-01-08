@@ -1,0 +1,11 @@
+.home-keep-in-contact{
+    padding-top: 100px;
+}
+.section-keep-in-contact{
+    background-color: var(--darker-background);
+    padding-bottom: 100px;
+    color: var(--text);
+}
+.home-keep-in-contact p{
+    font-size: 1rem;
+}

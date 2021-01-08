@@ -1,0 +1,22 @@
+.dot{
+    width: 11px;
+    margin-bottom: 1px;
+}
+.scroll{
+    width: 80px;
+    font-size: 0.75rem;
+    font-family: 'Metropolis-Medium';
+    transform: rotate(270deg);
+    margin-top: -70px;
+    color: var(--text);
+}
+.scroll span{
+    margin: 0 15px;
+}
+.line{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 1px;
+    height: 80px;
+    background-color: var(--text);
+}

@@ -1,0 +1,78 @@
+header{
+    line-height: 2.5;
+}
+Nav .nav-link{
+    font-family: 'Metropolis-SemiBold';
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: -0.12px;
+    color: var(--text) !important;
+    text-transform: uppercase;
+    padding-right: 50px !important;
+}
+Nav .nav-link:hover{
+    text-decoration: line-through;
+    text-decoration-color: var(--weird-green);
+}
+.nav-logo{
+    width: 195px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+.link-item{
+    line-height: 4;
+}
+.link-item .active{
+    text-decoration: line-through;
+    text-decoration-color: var(--weird-green);
+}
+.navbar-toggler{
+    border: none;
+    z-index: 9999;
+}
+.navbar-toggler-icon{
+    background-image: url("../../images/icons/menu-burger.svg") !important;
+    background-repeat: no-repeat;
+}
+.navbar-close-icon{
+    background-image: url("../../images/icons/close-menu.svg");
+    background-repeat: no-repeat;
+}
+.lr-logo-mobile{
+    visibility: hidden;
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .navbar{
+        padding: 25px 0;
+    }
+    .navbar-toggler{
+        padding: 0;
+        margin-right: 10px;
+    }
+    .navbar-close-icon{
+        color: #ffffff;
+        position: fixed;
+        right: 0;
+    }
+    .navbar .nav-logo{
+        margin: 5px 10px;
+    }
+    #basic-navbar-nav{
+        background-color: #000000;
+        position: fixed;
+        z-index: 9998;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+    }
+    .navbar-nav .link-item .nav-link{
+        color: #ffffff !important;
+        text-align: center;
+        font-size: 22px;
+        padding-right: 0 !important;
+    }
+    .lr-logo-mobile{
+        visibility: visible;
+        margin: 10px 20px;
+    }
+}
