@@ -1,4 +1,4 @@
-Project made with LaRepublica
+Project for LaRepublica
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
